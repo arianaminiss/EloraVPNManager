@@ -193,7 +193,7 @@ The installation script will automatically install these dependencies, but for r
 For full functionality, including subscription URLs and all features:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/eloravpn/EloraVPNManager/main/install.sh | sudo bash -s -- \
+curl -fsSL https://raw.githubusercontent.com/arianaminiss/EloraVPNManager/main/install.sh | sudo bash -s -- \
   --domain your-domain.com \
   --port 8080
 ```
@@ -211,7 +211,7 @@ Basic installation using auto-detected public IP (Limited functionality):
 
 Auto-detects your public IP address
 ```bash
-curl -fsSL https://raw.githubusercontent.com/eloravpn/EloraVPNManager/main/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/arianaminiss/EloraVPNManager/main/install.sh | sudo bash
 ```
 **⚠️ Limitations of IP-based installation:**
 
@@ -225,7 +225,7 @@ Note: For production environments, always use Option 1 with a proper domain name
 
 ### Full Custom Installation
 ```bash
-curl -fsSL https://raw.githubusercontent.com/eloravpn/EloraVPNManager/main/install.sh | sudo bash -s -- \
+curl -fsSL https://raw.githubusercontent.com/arianaminiss/EloraVPNManager/main/install.sh | sudo bash -s -- \
   --domain your-domain.com \
   --port 8080 \
   --protocol https \
@@ -254,10 +254,10 @@ To update the application, use one of these commands:
 
 ```bash
 # Update to latest version
-curl -fsSL https://raw.githubusercontent.com/eloravpn/EloraVPNManager/main/install.sh | sudo bash -s -- --update
+curl -fsSL https://raw.githubusercontent.com/arianaminiss/EloraVPNManager/main/install.sh | sudo bash -s -- --update
 
 # Update to specific version
-curl -fsSL https://raw.githubusercontent.com/eloravpn/EloraVPNManager/main/install.sh | sudo bash -s -- --update --version v1.2.3
+curl -fsSL https://raw.githubusercontent.com/arianaminiss/EloraVPNManager/main/install.sh | sudo bash -s -- --update --version v1.2.3
 ```
 - Restart the service
 
